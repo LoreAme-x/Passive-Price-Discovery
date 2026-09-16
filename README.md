@@ -1,5 +1,5 @@
 # Passive investing and price discovery
-https://passive-price-discovery-2wq8yzucynmphy2j9myury.streamlit.app/
+https://passive-price-discovery.streamlit.app
 
 Index funds and ETFs went from roughly 19% of US long-term fund assets in 2010 to over 50%
 in 2024 (ICI / Morningstar). An index fund buys every stock in its index in proportion to
