@@ -81,10 +81,13 @@ cost of equity  =  risk-free rate + beta × market premium      (CAPM)
 ```
 
 `k` is an **assumption** set in `config.py`, not something estimated from price data, so the
-project reports a low, base and high case. The recurring finding is that **the range created
-by the assumption is wider than the difference between the index tiers** — which is exactly
-why nobody can honestly quote a precise figure for how much index investing has raised the
-cost of capital. The report says so rather than hiding it.
+project reports a low, base and high case.
+
+In this sample the implied liquidity premium differs by about **XX basis points** between
+S&P 500 and S&P 600 stocks at the base calibration. Moving `k` across its plausible range
+moves that same gap by **YY basis points**. The assumption moves the answer more than the
+data does — which is why no precise figure for the effect of index investing on the cost of
+capital is defensible here, and the report says so rather than hiding it.
 
 ---
 
