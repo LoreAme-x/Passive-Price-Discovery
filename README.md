@@ -6,7 +6,7 @@ size, without forming any view about whether a particular company is any good.
 
 This project measures what that does to prices, and whether it reaches the cost of capital.
 
-**Sample:** ~450 US stocks taken from the actual constituent lists of the **S&P 500**,
+**Sample:** 443 US stocks taken from the actual constituent lists of the **S&P 500**,
 **S&P 400 MidCap** and **S&P 600 SmallCap** — three indices that differ sharply in how much
 passive money mechanically has to own them. 2012–2025, roughly 5,000 stock-year
 observations.
@@ -24,6 +24,7 @@ enough to build a claim on.
 
 The honest conclusion: most of what looks like an index-membership effect is
 size. Whether anything survives beyond that, this sample cannot tell.
+
 ---
 
 ## The measures
