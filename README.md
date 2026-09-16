@@ -166,3 +166,7 @@ ticker, so a return can never be computed across a ticker boundary.
 2. Point-in-time constituent lists, which removes the survivorship problem.
 3. Market capitalisation as the size control.
 4. A within-company design: track the same firm as its index membership changes.
+
+---
+
+*This project was developed with the assistance of AI tools (vibe coding). The code was reviewed and adapted as needed.*
