@@ -8,7 +8,7 @@ This project measures what that does to prices, and whether it reaches the cost 
 
 **Sample:** 443 US stocks taken from the actual constituent lists of the **S&P 500**,
 **S&P 400 MidCap** and **S&P 600 SmallCap** — three indices that differ sharply in how much
-passive money mechanically has to own them. 2012–2025, roughly 5,000 stock-year
+passive money mechanically has to own them. 2012–2025, 5128 stock-year
 observations.
 
 ## What I found
@@ -87,14 +87,14 @@ cost of equity  =  risk-free rate + beta × market premium      (CAPM)
 `k` is an **assumption** set in `config.py`, not something estimated from price data, so the
 project reports a low, base and high case.
 
-In this sample the implied liquidity premium is **188 bp** for S&P 500 stocks and
-**270 bp** for S&P 600 stocks — a gap of **82 bp**. But moving `k` from its low to
-its high case moves that premium by **524 bp** on average. The assumption is worth
-six times the difference in the data.
+In this sample the implied liquidity premium is **188 bp** for S&P 500 stocks and **270 bp**
+for S&P 600 stocks — a gap of **82 bp**. But moving `k` from its low to its high case moves
+that premium by **524 bp** on average. The assumption is worth six times the difference in
+the data.
 
-That is the finding, not a caveat. It is why no precise figure for the effect of
-index investing on the cost of capital is defensible here, and why the report
-publishes the low, base and high cases side by side rather than quoting one number.
+That is the finding, not a caveat. It is why no precise figure for the effect of index
+investing on the cost of capital is defensible here, and why the report publishes the low,
+base and high cases side by side rather than quoting one number.
 
 ---
 
