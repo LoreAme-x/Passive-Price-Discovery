@@ -1,0 +1,13 @@
+dependent_variable,sample,size_control,year_effects,sp500_coefficient,standard_error,t_statistic,significance,r_squared,observations,firms
+comovement_r2,all stocks,no,no,0.0615,0.0103,5.96,***,0.035,5128,443
+comovement_r2,all stocks,yes,no,0.0247,0.0117,2.1,**,0.056,5128,443
+comovement_r2,all stocks,yes,yes,0.0117,0.0122,0.95,,0.344,5128,443
+own_volatility,all stocks,no,no,-0.0975,0.0114,-8.53,***,0.053,5128,443
+own_volatility,all stocks,yes,no,-0.0681,0.0249,-2.73,***,0.061,5128,443
+own_volatility,all stocks,yes,yes,-0.0402,0.0279,-1.44,,0.167,5128,443
+reaction_delay,all stocks,no,no,-0.0049,0.0064,-0.78,,0.0,5128,443
+reaction_delay,all stocks,yes,no,0.0325,0.0138,2.36,**,0.04,5128,443
+reaction_delay,all stocks,yes,yes,0.0434,0.0145,2.99,***,0.105,5128,443
+comovement_r2,matched (S&P 500 small vs S&P 400 large),yes,yes,0.0336,0.0189,1.77,*,0.333,1355,120
+own_volatility,matched (S&P 500 small vs S&P 400 large),yes,yes,-0.1502,0.0238,-6.32,***,0.225,1355,120
+reaction_delay,matched (S&P 500 small vs S&P 400 large),yes,yes,0.0098,0.0117,0.84,,0.193,1355,120
