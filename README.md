@@ -22,6 +22,10 @@ companies, similar in size but on opposite sides of the index boundary — the
 coefficient is larger (+0.034) and marginally significant (t = 1.8), but not
 enough to build a claim on.
 
+The cost-of-capital side gives a blunter answer. The gap in implied liquidity premium
+between the index tiers is 82 bp; the range created by the assumption needed to
+compute it is 524 bp.
+
 The honest conclusion: most of what looks like an index-membership effect is
 size. Whether anything survives beyond that, this sample cannot tell.
 
