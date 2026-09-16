@@ -1,17 +1,3 @@
-## What I found
-
-The raw gap in market comovement between S&P 500 stocks and small caps is about
-6 R² points. **Once size and year effects are controlled for, 81% of that gap disappears**,
-and what remains (+0.012, t = 0.9) is not statistically distinguishable from zero.
-
-In a matched sample — the smallest S&P 500 companies against the largest S&P 400
-companies, similar in size but on opposite sides of the index boundary — the
-coefficient is larger (+0.034) and marginally significant (t = 1.8), but not
-enough to build a claim on.
-
-The honest conclusion: most of what looks like an index-membership effect is
-size. Whether anything survives beyond that, this sample cannot tell.
-
 # Passive investing and price discovery
 
 Index funds and ETFs went from roughly 19% of US long-term fund assets in 2010 to over 50%
@@ -25,6 +11,19 @@ This project measures what that does to prices, and whether it reaches the cost 
 passive money mechanically has to own them. 2012–2025, roughly 5,000 stock-year
 observations.
 
+## What I found
+
+The raw gap in market comovement between S&P 500 stocks and small caps is about
+6 R² points. **Once size and year effects are controlled for, 81% of that gap disappears**,
+and what remains (+0.012, t = 0.9) is not statistically distinguishable from zero.
+
+In a matched sample — the smallest S&P 500 companies against the largest S&P 400
+companies, similar in size but on opposite sides of the index boundary — the
+coefficient is larger (+0.034) and marginally significant (t = 1.8), but not
+enough to build a claim on.
+
+The honest conclusion: most of what looks like an index-membership effect is
+size. Whether anything survives beyond that, this sample cannot tell.
 ---
 
 ## The measures
